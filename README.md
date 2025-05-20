@@ -4,7 +4,7 @@
 # 📰 News Now – Static News Portal Website
 
 > 📥 **Instructions to Run**:  
-> Download or clone the entire root folder (contains ~66 files) to your local system.  
+> Download or clone the entire root folder NewsNow (contains ~66 files) to your local system.  
 > Open the file `index.html` in any web browser to launch the homepage.  
 > No server or internet connection is required — everything is **static and offline**.
 
