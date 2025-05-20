@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - News Portal</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: maroon;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: rgb(241, 137, 76);
+            border-radius: 3px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: maroon;
+            min-width: 80px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgb(241, 137, 76);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Styling for active page link */
+        .navbar a.active,
+        .navbar .dropdown span.active {
+            background-color: rgb(241, 137, 76);
+            color: #fff;
+            font-weight: bold;
+        
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+        }
+
+        .footer-links span {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">News Now</div>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <span class="dropbtn">Politics</span>
+                    <div class="dropdown-content">
+                        <a href="local-news.html">Local News</a>
+                        <a href="national-news.html">National News</a>
+                        <a href="international-relations.html">International Relations</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <span class="dropbtn">Sports</span>
+                    <div class="dropdown-content">
+                        <a href="cricket.html">Cricket</a>
+                        <a href="football.html">Football</a>
+                        <a href="tennis.html">Tennis</a>
+                    </div>
+                </li>
+                <li><a href="entertainment.html">Entertainment</a></li>
+                <li><a href="business.html">Business</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>About Us</h1>
+        <section class="about-content">
+            <p>
+                Welcome to <strong>News Now:Your Gateway to Truth</strong>, we are the number one source for the latest updates on politics,
+                sports, entertainment, technology, and much more. Our mission is to provide accurate, timely, and
+                unbiased news to keep you informed and engaged with the world around you.
+            </p>
+            <p>
+                Founded in 2024, News Now has grown to become a trusted name in the industry. We are committed to
+                delivering high-quality journalism and a user-friendly experience for all our readers.
+            </p>
+            <p>
+                We value your feedback and are always striving to improve. Feel free to reach out to us through our <a
+                    href="contact.html">Contact Us</a> page with your suggestions or inquiries.
+            </p>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 News Now. All rights reserved.</p>
+        <div class="footer-links">
+            <span>Privacy Policy</span>
+            <span>Terms of Use</span>
+        </div>
+    </footer>
+</body>
+
+</html>
